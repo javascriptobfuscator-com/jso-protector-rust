@@ -1,0 +1,84 @@
+JavaScript Obfuscator — jso-protector (Rust crate)
+Proprietary Software Licence
+
+Copyright (c) 2026 JavaScript Obfuscator. All rights reserved.
+
+This software is licensed, not sold. It is made publicly installable through a
+public package registry as a convenience for licensees and evaluators.
+Publication on a public registry does not place it in the public domain and does
+not grant any open-source licence.
+
+This package is a client library for the JavaScript Obfuscator hosted API. It
+contains no protection engine and no runtime components; it sends source code to
+the hosted service and returns the result.
+
+1. GRANT
+
+   Subject to the terms below, you are granted a non-exclusive, non-transferable,
+   revocable licence to:
+
+   (a) download, install and execute this package;
+
+   (b) use it to protect source code that you own or are authorised to modify;
+       and
+
+   (c) vendor an unmodified copy of this package into your own build or
+       deployment artifacts, where your toolchain requires dependencies to be
+       committed or bundled, provided this licence notice travels with it.
+
+2. RESTRICTIONS
+
+   Except as expressly permitted in Section 1, and except where the following
+   cannot lawfully be restricted in your jurisdiction, you may not:
+
+   (a) redistribute, sublicense, sell, rent, lease or host this package or any
+       part of it as a standalone offering;
+
+   (b) modify, adapt or create derivative works of this package;
+
+   (c) reverse engineer, decompile or disassemble it, other than to the extent
+       required for interoperability where that right is granted by applicable
+       law;
+
+   (d) remove, obscure or alter any copyright, licence or attribution notice; or
+
+   (e) use it to protect code that you neither own nor are authorised to modify.
+
+3. THE HOSTED SERVICE
+
+   This client transmits source code to the JavaScript Obfuscator hosted API.
+   Substantially all of its functionality requires a valid, current subscription
+   or a free-tier account, and your use of the service is additionally governed
+   by the terms published at https://javascriptobfuscator.com/. Nothing in this
+   licence grants access to the hosted service, and nothing in it limits or
+   varies those service terms.
+
+4. NO WARRANTY
+
+   THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+   No representation is made that obfuscated or protected output cannot be
+   analysed, reverse engineered or recovered. Code protection raises the cost of
+   analysis; it does not make it impossible. Do not rely on this software as the
+   sole control protecting secrets, credentials or safety-critical logic.
+
+5. LIMITATION OF LIABILITY
+
+   IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR
+   OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+   FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OF OR OTHER
+   DEALINGS IN THE SOFTWARE.
+
+6. TERMINATION
+
+   This licence terminates automatically if you breach any of its terms. On
+   termination you must cease all use and destroy all copies.
+
+7. GOVERNING LAW
+
+   This licence is governed by the laws of the jurisdiction in which the
+   copyright holder is established, without regard to conflict-of-law rules.
+
+Questions about licensing: https://javascriptobfuscator.com/

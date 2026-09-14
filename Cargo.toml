@@ -1,0 +1,28 @@
+[package]
+name = "jso-protector"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.70"
+authors = ["JavaScript Obfuscator"]
+description = "Rust client for the JavaScript Obfuscator HTTP API. Companion to the jso-protector npm CLI."
+homepage = "https://javascriptobfuscator.com/docs/npmcli.aspx"
+repository = "https://github.com/richtexteditor/jso-protector-rust"
+license-file = "LICENSE"
+keywords = ["javascript-obfuscator", "obfuscation", "protection", "anti-tamper", "symbolication"]
+categories = ["api-bindings", "development-tools::build-utils"]
+readme = "README.md"
+
+[dependencies]
+# ureq is the standard pragmatic choice for a sync HTTP client in Rust:
+# small surface, no async runtime, native TLS via rustls.
+ureq = { version = "2.9", default-features = false, features = ["tls", "json"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+thiserror = "1.0"
+
+[dev-dependencies]
+# Mock server for offline integration tests.
+mockito = "1.4"
+
+[lib]
+path = "src/lib.rs"
